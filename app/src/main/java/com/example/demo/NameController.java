@@ -12,6 +12,6 @@ public class NameController {
         String firstName = fullNameRequest.getFirstName();
         String lastName = fullNameRequest.getLastName();
         String fullName = firstName + " " + lastName;
-        return fullName;
+        return "Full name is " +fullName;
     }
 }
